@@ -71,7 +71,90 @@
 
   <h2>Newsletter Form</h2>
 
-  <form action="/"></form>
+  <form>
+    <fieldset>
+
+      <legend>Subscribe:</legend>
+      Title:
+      <input
+        type="radio"
+        name="gender"
+        id="male"
+        value="male"
+        checked
+      >
+      <label for="male">Mr</label>
+      <input
+        type="radio"
+        name="gender"
+        id="female"
+        value="female"
+        checked
+      >
+      <label for="female">Ms</label>
+      <input
+        type="radio"
+        name="gender"
+        id="Unspecified"
+        checked
+      >
+      <label for="Unspecified">Unspecified</label>
+      <br>
+
+      <label for="name">*Name</label>
+      <input
+        type="text"
+        name="Name"
+        placeholder="Name"
+        required
+      >
+      <label for="surname">*Surname</label>
+      <input
+        type="text"
+        name="surname"
+        placeholder="Surname"
+        required
+      >
+      <br>
+      <p>
+        <label for="email">*Email</label>
+        <input
+          type="email"
+          name="email"
+          placeholder="Email"
+          required
+        >
+      </p>
+
+      <input
+        type="checkbox"
+        name="subscribe"
+        id="subscribe"
+        checked
+      >
+      <label for="subscribe">Agree to this and
+        <i>we will send you emails</i>
+      </label>
+
+      <br>
+
+      <label for="gdpr-consent">GDPR generic consent?</label>
+      <input
+        type="checkbox"
+        name="gdpr-consent"
+        id="gdpr-consent"
+      >
+
+      <br>
+      <input
+        type="submit"
+        id="submit"
+        value="Subscribe"
+      >
+    </fieldset>
+  </form>
+
+
   <p>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
     aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
