@@ -16,13 +16,313 @@
 </head>
 
 <body>
+  <p>
+    <a
+      href="http://google.com"
+      target="_blank"
+      rel="noopener noreferrer"
+    >Home</a>*
 
+    <a
+      href="http://google.com"
+      target="_blank"
+      rel="noopener noreferrer"
+    ><b>Place Order</b></a>*
 
-  <div
-    class="pixeltab-host"
-    id="html01-04-07"
-  ></div>
-  <script src="https://pixellab.ro/js/pixeltab/static/js/pixeltab.js"></script>
+    <a
+      href="http://google.com"
+      target="_blank"
+      rel="noopener noreferrer"
+    >Customer Service</a>*
+
+    <a
+      href="http://google.com"
+      target="_blank"
+      rel="noopener noreferrer"
+    >Contact</a>
+  </p>
+
+  <h1>Place Order</h1>
+  <p>This is the <b>guest checkout</b>, thank you for your order!</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+    sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </p>
+  <br>
+  <h2>Products</h2>
+  <p><img
+      src="images/mouse.jpg"
+      alt="mouse"
+    > <a
+      href="http://google.com"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="sterge"
+    >Sterge</a> <a
+      href="http://google.com"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="editeaza"
+    >Editeaza</a>
+  </p>
+  <hr>
+  <p>
+    <img
+      src="images/extension_chord.jpg"
+      alt="extension chord"
+    ><a
+      href="http://google.com"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="sterge"
+    >Sterge</a> <a
+      href="http://google.com"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="editeaza"
+    >Editeaza</a>
+  </p>
+  <hr>
+  <p>
+    <img
+      src="images/phone.jpg"
+      alt="phone"
+    ><a
+      href="http://google.com"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="sterge"
+    >Sterge</a> <a
+      href="http://google.com"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="editeaza"
+    >Editeaza</a>
+  </p>
+
+  <h2>Order Now</h2>
+  <p>
+    On our website <i>no account is needed.</i>
+  </p>
+  <ol>
+    <li>
+      First we need some info about yourself.
+      <b>Don't forget to provide a phone.
+      </b>
+    </li>
+    <li>
+      Then we need your
+      <i>real shipping address.</i>
+    </li>
+    <li>
+      Finally, your credit card information.
+    </li>
+  </ol>
+
+  <form action="">
+    <fieldset>
+      <legend>Personal Information</legend>
+      Title:
+      <label for="male">Mr.</label>
+      <input
+        type="radio"
+        name="gender"
+        id="male"
+        value="male"
+        checked
+      >
+      <label for="female">Ms</label>
+      <input
+        type="radio"
+        name="gender"
+        id="female"
+        value="female"
+      >
+      <label for="gender">Unspecified</label>
+      <input
+        type="radio"
+        name="gender"
+        id="unspecified"
+        value="unspecified"
+      >
+      <br>
+      <label for="name">*Name</label>
+      <input
+        type="text"
+        name="name"
+        placeholder="Name"
+        id="name"
+        required
+      >
+      <br>
+      <label for="surname">*Surname</label>
+      <input
+        type="text"
+        name="surname"
+        placeholder="Surname"
+        id="surname"
+        required
+      >
+      <br>
+      <label for="email">*Email</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Email"
+        required
+      >
+      <br>
+      <label for="address-phone">*Phone</label>
+      <input
+        type="tel"
+        name="address-phone"
+        placeholder="Phone"
+        id="address-phone"
+        required
+      >
+
+      <form action="\">
+        <fieldset>
+          <legend>Address</legend>
+          <label for="name2">*Name</label>
+          <input
+            type="text"
+            name="name"
+            placeholder="Name"
+            id="name2"
+            required
+          >
+          <br>
+          <label for="surname2">*Surname</label>
+          <input
+            type="text"
+            name="surname"
+            placeholder="Surname"
+            id="surname2"
+            required
+          >
+
+          <br>
+
+          <label for="phone2">*Phone</label>
+          <input
+            type="tel"
+            name="phone"
+            placeholder="Phone"
+            id="phone2"
+            required
+          >
+          <br>
+          <label for="address1">*Address Line 1:</label>
+          <input
+            type="address1"
+            name="address1"
+            id="address1"
+            placeholder="Address Line 1"
+            required
+          >
+          <br>
+          <label for="address2">*Address Line 2:</label>
+          <input
+            type="address2"
+            name="address2"
+            id="address2"
+            placeholder="Address Line 2"
+            required
+          >
+          <br>
+          <label for="city">*City</label>
+          <input
+            type="city"
+            name="city"
+            id="city"
+            placeholder="City"
+            required
+          >
+          <br>
+
+          <label for="state">*State</label>
+          <select
+            name="state"
+            id="state"
+            required=""
+          >
+            <option value="">--State--</option>
+            <option value="alabama">Alabama</option>
+            <option value="arkansas">Arkansas</option>
+            <option value="northDakota">North Dakota</option>
+            <option value="newYork">New York</option>
+            <option value="boston">Boston</option>
+          </select>
+          <br>
+          <label for="postcode">*Postcode</label>
+          <input
+            type="text"
+            name="postcode"
+            id="postcode"
+            placeholder="Postcode"
+            required
+          >
+        </fieldset>
+      </form>
+
+      <form action="">
+        <legend>Card Information</legend>
+
+        <label for="card-number">*Card number</label>
+        <input
+          type="text"
+          name="card-number"
+          id="card-number"
+          placeholder="Card Number"
+          required
+        >
+        <br>
+        <label for="card-name">*Name on card</label>
+        <input
+          type="text"
+          name="card-name"
+          id="card-name"
+          placeholder="Name on card"
+          required
+        >
+        <label for="card-expiry-month">*Expiry Month</label>
+        <select
+          name="card-expiry-month"
+          id="card-expiry-month"
+          required=""
+        >
+          <option value="">Month</option>
+          <option value="January">January</option>
+          <option value="February">February</option>
+        </select>
+        <label for="card-expiry-year">*Expiry Year</label>
+        <select
+          name="card-expiry-year"
+          id="card-expiry-year"
+          required=""
+        >
+          <option value="">Year</option>
+          <option value="January">2021</option>
+          <option value="February">2022</option>
+        </select>
+        <label for="card-cvv">*CVV</label>
+        <input
+          type="text"
+          name="card-cvv"
+          id="card-cvv"
+          placeholder="CVV"
+          required
+        >
+      </form>
+
+      <div
+        class="pixeltab-host"
+        id="html01-04-07"
+      ></div>
+      <script src="https://pixellab.ro/js/pixeltab/static/js/pixeltab.js"></script>
 </body>
 
 </html>
