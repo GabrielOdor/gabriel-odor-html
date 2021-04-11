@@ -26,3 +26,41 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.blue {
+  width: 150px;
+  height: 300px;
+  border-radius: 20px;
+  background-color: blue;
+  padding-top: 25px;
+  padding-bottom: 10px;
+  padding-right: 21px;
+  padding-left: 13px;
+}
+
+.container {
+  padding: 15px;
+  border: 3px solid green;
+}
+
+.green {
+  width: 500px;
+  height: 220px;
+  background-color: green;
+  border: 1px solid black;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-right: 19px;
+  padding-left: 19px;
+  margin: 0 auto;
+}
+
+.turquoise {
+  background-color: turquoise;
+  border: 1px solid blue;
+  border-radius: 15px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
