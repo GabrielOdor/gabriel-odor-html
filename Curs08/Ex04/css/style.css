@@ -10,10 +10,47 @@
   right: 0%;
   background-color: black;
   z-index: 1;
+  color: white;
 }
 
-.legend {
+body {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.nav-top a {
+  color: white;
+}
+
+.container {
+  position: relative;
+}
+
+.container .legend {
+  background-color: white;
+  border: 1px solid black;
   position: absolute;
+  top: -10px;
+  left: 10px;
   background-color: gray;
   border: 1px solid red;
+}
+
+.container .sub {
+  position: relative;
+  font-size: 12px;
+  bottom: -3px;
+}
+
+.nav-bottom {
+  position: fixed;
+  bottom: 0;
+  left: 0%;
+  background-color: green;
+  z-index: 1;
+  color: white;
+}
+
+.nav-bottom a {
+  color: white;
 }
