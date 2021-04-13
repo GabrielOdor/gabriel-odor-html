@@ -17,3 +17,28 @@ i {
 p .line {
   color: gray;
 }
+
+b {
+  color: purple;
+}
+
+.odd .line {
+  color: blue;
+}
+
+.odd i {
+  text-decoration: underline;
+}
+
+.even b {
+  text-decoration: underline;
+}
+
+a[href*='.com'] {
+  color: #000000;
+}
+
+a[href^="http://"]
+{
+  color: red;
+}

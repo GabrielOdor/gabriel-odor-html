@@ -89,23 +89,23 @@
         name="gender"
         id="female"
         value="female"
-        checked
       >
       <label for="female">Ms</label>
       <input
         type="radio"
         name="gender"
-        id="Unspecified"
-        checked
+        id="na"
+        value="na"
       >
-      <label for="Unspecified">Unspecified</label>
+      <label for="na">Unspecified</label>
       <br>
 
       <label for="name">*Name</label>
       <input
         type="text"
-        name="Name"
+        name="name"
         placeholder="Name"
+        id="name"
         required
       >
       <label for="surname">*Surname</label>
@@ -113,6 +113,7 @@
         type="text"
         name="surname"
         placeholder="Surname"
+        id="surname"
         required
       >
       <br>
@@ -123,6 +124,7 @@
           name="email"
           placeholder="Email"
           required
+          id="email"
         >
       </p>
 
@@ -146,12 +148,12 @@
       >
 
       <br>
-      <input
+      <button
         type="submit"
         id="submit"
         name="submit"
-        value="Subscribe"
-      >
+      >Subscribe</button>
+
     </fieldset>
   </form>
 
